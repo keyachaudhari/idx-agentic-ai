@@ -39,7 +39,8 @@ pip install -r requirements.txt
 
 # Configure environment
 cp .env.example .env
-# Fill in your GEMINI_API_KEY and MySQL credentials
+
+# GEMINI_API_KEY and MySQL credentials
 
 
 ### Run each component
