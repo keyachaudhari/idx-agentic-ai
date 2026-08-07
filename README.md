@@ -21,8 +21,8 @@ A production-grade multi-agent AI assistant that helps users search for Californ
 - [x] Week 3 – MySQL Database Integration
 - [x] Week 4 – Semantic Search & Embeddings
 - [x] Week 5 – Market Statistics Agent
-- [ ] Week 6 – Embeddings & Vector Search
-- [ ] Week 7 – Recommendation Engine
+- [x] Week 6 – Embeddings & Vector Search
+- [x] Week 7 – Recommendation Engine
 - [ ] Week 8 – RAG (Retrieval-Argumented Generation) Pipeline
 - [ ] Week 9 – Multi-Agent Orchestration
 - [ ] Week 10 – WhatsApp Communication Layer
