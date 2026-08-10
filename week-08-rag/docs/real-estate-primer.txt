@@ -1,0 +1,113 @@
+REAL ESTATE DATA ANALYST PRIMER
+
+MLS
+A Multiple Listing Service (MLS) is a private, cooperative database operated by a regional association of real estate brokers. Agents use it to share listing information with each other. The dataset used in this project originates from CRMLS, the California Regional Multiple Listing Service.
+
+KEY FIELDS
+
+ListingKey:
+Unique identifier for the listing record.
+
+ListingContractDate:
+Date the listing agreement was signed.
+
+ListPrice:
+Seller's asking price at the time of listing.
+
+ClosePrice:
+Final agreed sale price.
+
+PurchaseContractDate:
+Date the purchase agreement was signed.
+
+CloseDate:
+Date the real estate transaction officially closed.
+
+LivingArea:
+Interior square footage.
+
+BedroomsTotal:
+Number of bedrooms.
+
+BathroomsTotalInteger:
+Number of bathrooms.
+
+Latitude / Longitude:
+Geographic coordinates used for mapping.
+
+UnparsedAddress:
+Full property address as entered by the agent.
+
+TRANSACTION LIFECYCLE
+
+Stage 1 - Listing:
+The seller signs a listing agreement and the property is entered into the MLS. Listing information such as ListPrice, LivingArea, BedroomsTotal, and address is populated.
+
+Stage 2 - Offers:
+Buyers submit offers, often after obtaining mortgage preapproval.
+
+Stage 3 - Purchase Agreement and Escrow:
+After an offer is accepted, the property typically becomes Pending. Escrow is a neutral third-party account that holds funds while inspections, appraisal, underwriting, title work, and final paperwork are completed.
+
+Stage 4 - Close:
+When all conditions are satisfied, escrow closes, ownership changes, and CloseDate and ClosePrice are recorded.
+
+LIST PRICE VS CLOSE PRICE
+
+ListPrice is the seller's marketing or asking price.
+
+ClosePrice is the final transaction value and is more appropriate for analyzing actual sale-price trends.
+
+SALE-TO-LIST / LIST-TO-CLOSE RATIO
+
+The ratio of ClosePrice to ListPrice is an indicator of market competitiveness.
+
+A ratio above 1.0 means the property sold above asking and can indicate a competitive seller's market.
+
+A ratio below 1.0 means the property sold below asking and can indicate buyer leverage or an overpriced listing.
+
+Example:
+ListPrice: $875,000
+ClosePrice: $901,000
+Sale-to-List Ratio: 1.030
+The property sold approximately 3% above asking.
+
+LISTINGS DATASET VS SOLD DATASET
+
+Listings dataset:
+Contains properties entered into the MLS, including active, expired, withdrawn, and sold listings. It is useful for supply analysis.
+
+Sold dataset:
+Contains properties that completed a transaction. Sold records include ClosePrice and CloseDate and are useful for price and sales-volume analysis.
+
+MLS STATUS
+
+Active:
+Property is currently live and available.
+
+Pending:
+Offer accepted and under contract, but not yet closed.
+
+Closed:
+Transaction completed. ClosePrice and CloseDate are populated.
+
+Back on Market:
+Property returned to Active after a pending transaction failed.
+
+Expired:
+Listing agreement ended without a sale.
+
+Withdrawn:
+Seller removed the property before the listing expired.
+
+DAYS ON MARKET (DOM)
+
+Days on Market measures how long a property has been listed before going under contract or selling.
+
+Low DOM generally signals stronger buyer demand.
+
+High DOM can indicate softer demand or that a listing may be overpriced.
+
+DOM is commonly calculated as the number of calendar days between ListingContractDate and either the Pending date or CloseDate.
+
+CDOM means Cumulative Days on Market and can include multiple listing periods for the same property.

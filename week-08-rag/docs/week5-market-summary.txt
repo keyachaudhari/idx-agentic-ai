@@ -1,0 +1,33 @@
+WEEK 5 MARKET SUMMARIES
+
+IRVINE MARKET REPORT - LAST 12 MONTHS
+
+Homes Sold: 991
+Average Close Price: $1,741,302
+Average Price per Square Foot: $811
+Average Days on Market: 44.4
+List-to-Close Ratio: 98.1%
+Market Type: Buyer's market
+Homes are selling slowly.
+
+
+PASADENA MARKET REPORT - LAST 12 MONTHS
+
+Homes Sold: 498
+Average Close Price: $1,539,977
+Average Price per Square Foot: $823
+Average Days on Market: 39.6
+List-to-Close Ratio: 103%
+Market Type: Seller's market
+Homes are selling slowly.
+
+
+SAN DIEGO MARKET REPORT - LAST 12 MONTHS
+
+Homes Sold: 4,158
+Average Close Price: $1,152,573
+Average Price per Square Foot: $720
+Average Days on Market: 30.3
+List-to-Close Ratio: 99.4%
+Market Type: Buyer's market
+Homes are selling slowly.

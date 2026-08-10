@@ -1,0 +1,73 @@
+TRESTLE PROPERTY METADATA - SELECTED FIELD DEFINITIONS
+
+ListingKey:
+Primary key that uniquely identifies a record in the Trestle Property resource.
+
+ListingId:
+Listing identifier from the MLS system.
+
+StandardStatus:
+Standardized listing status used to identify the current lifecycle state of a property.
+
+PostalCode:
+Postal or ZIP code associated with the property.
+
+AssociationFee:
+Fee paid by the homeowner to a Home Owners Association for maintenance of common areas, neighborhood services, or association-related benefits.
+
+AssociationFeeFrequency:
+Frequency at which an association fee is paid, such as weekly, monthly, or annually.
+
+AssociationName:
+Name of the Home Owners Association.
+
+AssociationYN:
+Indicates whether the property is part of a Home Owners Association.
+
+BathroomsFull:
+Number of full bathrooms.
+
+BathroomsHalf:
+Number of half bathrooms.
+
+BathroomsTotalInteger:
+The simple total number of bathrooms.
+
+BedroomsTotal:
+Total number of bedrooms in the dwelling.
+
+BuildingAreaTotal:
+Total area of the structure, including finished and unfinished areas.
+
+AboveGradeFinishedArea:
+Finished area within the structure at or above ground level.
+
+BelowGradeFinishedArea:
+Finished area within the structure below ground level.
+
+BuyerAgentFirstName:
+First name of the buyer's agent.
+
+BuyerAgentLastName:
+Last name of the buyer's agent.
+
+BuyerAgentFullName:
+Full name of the buyer's agent.
+
+BuyerOfficeName:
+Legal name of the brokerage representing the buyer.
+
+BackOnMarketDate:
+Date when a listing that had gone off market returned to the market.
+
+AccessibilityFeatures:
+List or description of accessibility features included with the property.
+
+Appliances:
+List of appliances included in the sale or lease.
+
+ArchitecturalStyle:
+Style of the property structure, such as Victorian, Ranch, or Craftsman.
+
+AssociationAmenities:
+Amenities provided by the Home Owners Association or community.

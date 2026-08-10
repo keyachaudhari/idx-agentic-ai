@@ -1,0 +1,87 @@
+RETS_PROPERTY SCHEMA REFERENCE
+
+L_ListingID:
+MLS system listing ID.
+
+L_Address:
+Full street address.
+
+L_City:
+City of the property.
+
+L_SystemPrice:
+Current listing price.
+
+L_Keyword2:
+Number of bedrooms.
+
+LM_Dec_3:
+Number of bathrooms.
+
+LM_Int2_3:
+Approximate finished square footage.
+
+L_Type_:
+Property subtype, such as SingleFamilyResidence or Condominium.
+
+L_Status:
+Current listing status, such as Active, Pending, or Withdrawn.
+
+L_Remarks:
+Full listing description written by the listing agent.
+
+YearBuilt:
+Year the property was constructed.
+
+AssociationFee:
+HOA or association fee.
+
+PoolPrivateYN:
+Whether the property has a private pool.
+
+DaysOnMarket:
+Number of days the property has been on the market.
+
+CALIFORNIA_SOLD SCHEMA REFERENCE
+
+The california_sold table contains historical closed real estate transactions.
+
+Important california_sold columns:
+
+City:
+City where the sold property is located.
+
+ClosePrice:
+Final sale price of the property.
+
+CloseDate:
+Date the real estate transaction officially closed.
+
+ListPrice:
+Listing price used for comparison with the final sale price.
+
+OriginalListPrice:
+Original asking price when the property was first listed.
+
+LivingArea:
+Interior living area or square footage of the property.
+
+DaysOnMarket:
+Number of days the property was on the market.
+
+PropertyType:
+Type or category of the property.
+
+YearBuilt:
+Year the property was constructed.
+
+BedroomsTotal:
+Number of bedrooms.
+
+BathroomsTotalInteger:
+Number of bathrooms.
+
+StandardStatus:
+Standardized MLS status of the property.
+
+The california_sold table is used for historical market analysis, including average sale prices, price per square foot, days on market, sales volume, price trends, and list-to-close ratios.
