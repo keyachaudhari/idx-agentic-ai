@@ -23,8 +23,8 @@ A production-grade multi-agent AI assistant that helps users search for Californ
 - [x] Week 5 – Market Statistics Agent
 - [x] Week 6 – Embeddings & Vector Search
 - [x] Week 7 – Recommendation Engine
-- [ ] Week 8 – RAG (Retrieval-Argumented Generation) Pipeline
-- [ ] Week 9 – Multi-Agent Orchestration
+- [x] Week 8 – RAG (Retrieval-Argumented Generation) Pipeline
+- [x] Week 9 – Multi-Agent Orchestration
 - [ ] Week 10 – WhatsApp Communication Layer
 - [ ] Week 11 – Email Agents & Safety Guardrails
 - [ ] Week 12 – Capstone: Everything Together
