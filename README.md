@@ -26,7 +26,7 @@ A production-grade multi-agent AI assistant that helps users search for Californ
 - [x] Week 8 – RAG (Retrieval-Argumented Generation) Pipeline
 - [x] Week 9 – Multi-Agent Orchestration
 - [x] Week 10 – WhatsApp Communication Layer
-- [ ] Week 11 – Email Agents & Safety Guardrails
+- [x] Week 11 – Email Agents & Safety Guardrails
 - [ ] Week 12 – Capstone: Everything Together
 
 ## How to Run
