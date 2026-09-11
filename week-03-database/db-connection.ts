@@ -31,7 +31,7 @@ export async function testConnection() {
         const result = await query<{ count: number }>(
             "SELECT COUNT(*) as count FROM rets_property"
         );
-        console.log(`Connected! rets_property has ${result[0].count} listings.`);
+      //  console.log(`Connected! rets_property has ${result[0].count} listings.`);
     } catch (err) {
         console.error("Connection failed:", err);
     }

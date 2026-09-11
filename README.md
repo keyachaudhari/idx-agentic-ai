@@ -129,7 +129,7 @@ Important fields used in the project include:
 - [x] Week 9 — Multi-Agent Orchestration
 - [x] Week 10 — WhatsApp Communication Layer
 - [x] Week 11 — Email Agent & Safety Guardrails
-- [ ] Week 12 — Final Capstone Integration & Demo
+- [x] Week 12 — Final Capstone Integration & Demo
 
 ---
 
@@ -142,6 +142,7 @@ Users can search active listings using natural-language property criteria such a
 Data source:
 
 `rets_property`
+
 
 ### Market Analytics
 
@@ -161,6 +162,24 @@ Data source:
 `california_sold`
 
 ### Semantic Similarity Search
+### Run the Capstone
+
+Terminal 1 — OpenClaw Gateway:
+
+```bash
+cd ~/Desktop/IDX_Internship/openclaw
+/usr/local/bin/node dist/index.js gateway --port 18789
+```
+
+Terminal 2 — Capstone Bridge:
+
+```bash
+cd ~/Desktop/IDX_Internship
+source venv/bin/activate
+cd week-12-capstone
+npx ts-node capstone-server.ts
+```
+
 
 Property descriptions and characteristics can be represented using embeddings and compared using cosine similarity.
 
@@ -396,3 +415,13 @@ Week 12 focuses on:
 **Keya Chaudhari**  
 IDX Exchange — AI Agentic Engineer Internship  
 Summer 2026
+## Capstone Results
+
+- Integrated property search, market statistics, recommendations, RAG, and email workflows behind a single intent router.
+- Connected the capstone assistant to WhatsApp through OpenClaw.
+- Verified multi-turn property search through WhatsApp.
+- Verified database-backed California market statistics.
+- Verified similar-property recommendations with comparable-sale validation.
+- Verified RAG answers from indexed real estate documentation.
+- Implemented human-in-the-loop email approval guardrails.
+- Rejected email drafts cannot subsequently be approved or sent.

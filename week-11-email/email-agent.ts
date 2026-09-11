@@ -111,7 +111,7 @@ export function draftEmail(
 
 export async function approveAndSend(
   draftId: string
-): Promise<void> {
+): Promise<boolean> {
 
   const draft =
     draftQueue.get(draftId);
@@ -122,7 +122,7 @@ export async function approveAndSend(
       `❌ Draft ${draftId} not found`
     );
 
-    return;
+    return false;
   }
 
 
@@ -158,7 +158,7 @@ export async function approveAndSend(
     `   Subject: ${draft.subject}`
   );
 
-  draft.status = "sent";
+  return true;
 }
 
 
@@ -168,20 +168,34 @@ export async function approveAndSend(
 
 export function rejectDraft(
   draftId: string
-): void {
+): boolean {
 
   const draft =
     draftQueue.get(draftId);
 
-  if (draft) {
-
-    draft.status =
-      "rejected";
-
+  if (!draft) {
     console.log(
-      `🚫 Draft ${draftId} rejected - email will NOT be sent`
+      `❌ Draft ${draftId} not found`
     );
+
+    return false;
   }
+
+  if (draft.status !== "pending_approval") {
+    console.log(
+      `❌ Draft ${draftId} cannot be rejected (status: ${draft.status})`
+    );
+
+    return false;
+  }
+
+  draft.status = "rejected";
+
+  console.log(
+    `🚫 Draft ${draftId} rejected - email will NOT be sent`
+  );
+
+  return true;
 }
 
 
@@ -314,4 +328,4 @@ async function main() {
 }
 
 
-main();
+// main();
