@@ -1,0 +1,30 @@
+{
+  "name": "idx_internship",
+  "version": "1.0.0",
+  "description": "**Summer 2026 Internship | Keya Chaudhari**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyachaudhari/idx-agentic-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keyachaudhari/idx-agentic-ai/issues"
+  },
+  "homepage": "https://github.com/keyachaudhari/idx-agentic-ai#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mysql2": "^3.24.4",
+    "nodemailer": "^10.0.9"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^8.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
